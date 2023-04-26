@@ -29,3 +29,9 @@ variable "connectivity_resources_tags" {
   type        = map(string)
   description = "Specify tags to add to \"connectivity\" resources."
 }
+
+variable "connectivity_resources_location" {
+  type    = string
+  default = "westeurope"
+}
+
